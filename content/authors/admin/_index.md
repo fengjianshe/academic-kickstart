@@ -15,10 +15,10 @@ role: PhD, Data Scientist
 # Organizations/Affiliations
 organizations:
 - name: University of Cincinnati
-  url: ""
+  url: "https://www.uc.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Machine Learning, adaptive Prognostics and Health Management (PHM), and Industrial AI.
 
 interests:
 - Machine Learning
@@ -45,15 +45,21 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:js.feng1990@gmail.com".
-- icon: twitter
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/Von__Hans
+  link: https://www.linkedin.com/in/jianshe-feng-096644a1/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=izHfXdgAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/fengjianshe
+- icon: researchgate
+  icon_pack: fab
+  link: https://www.researchgate.net/profile/Jianshe_Feng
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/Von__Hans
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
@@ -70,8 +76,8 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate at center for intelligent maintenance systems (IMS), University of Cincinnati.
+I just finised my PhD program at center for [intelligent maintenance systems (IMS)](http://www.imscenter.net/), [University of Cincinnati](https://www.uc.edu/).
 
-I work under the supervision of Prof. Jay Lee. 
+I work under the supervision of Prof. [Jay Lee](https://scholar.google.com/citations?user=g9GtqgQAAAAJ&hl=en). 
 
-I am looking for a full-time job on industrial AI, predictive analytics related area.
+I am looking for a full-time job on industrial AI, predictive analytics related areas.
