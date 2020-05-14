@@ -33,7 +33,7 @@ education:
   - course: MSc in Mechatronics Engineering
     institution: Zhejiang University
     year: 2015
-  - Course: BSc in Mechanical Engineering
+  - course: BSc in Mechanical Engineering
     institution: Tongji University
     year: 2012
 
