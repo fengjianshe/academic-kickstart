@@ -86,30 +86,29 @@ phone = "513 886 7780"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "450 Serra Mall", city = "Cincinnati", region = "OH", postcode = "45229", country = "United States", country_code = "US"}
+address = {street = "2600 Clifton Ave", city = "Cincinnati", region = "OH", postcode = "45229", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+coordinates = {latitude = "39.1329", longitude = "-84.5150"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+directions = "Enter Rohdes Hall and take the stairs to Office 503 on Level 500"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+office_hours = ["Monday 10:00 to 17:00", "Wednesday 10:00 to 18:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "http://www.imscenter.net/"
+appointment_url = "http://www.imscenter.net/IMS/about-our-center/contact"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Von__Hans"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:jianshe.feng"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:jianshefeng"},
+  {icon = "weixin", icon_pack = "fab", name = "We chat", link = "https://www.wechat.com/en"},
+  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "http://106.53.19.63/index"}
   ]
 
 ############################
@@ -120,7 +119,7 @@ contact_links = [
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+twitter = "Von_Hans"
 
 ############################
 ## Regional Settings
