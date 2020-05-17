@@ -1,24 +1,24 @@
 ---
-title: Adaptive PHM in PHM Environment
-summary: An example of using the in-built project page.
+title: Adaptive PHM Framework
+summary: This research proposes a systematic methodology to develop an effective online evolving PHM method with adaptive sampling mechanism against continuous stream data and in-process changes. 
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- PHM, Adaptive Model
+date: "2020-05-08T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Adaptive PHM Framework and SI Test
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: researchgate
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: Details
+  url: https://www.researchgate.net/publication/336685442_Methodology_of_Adaptive_Prognostics_and_Health_Management_Using_Streaming_Data_in_Big_Data_Environment
 url_code: ""
-url_pdf: ""
+url_pdf: "https://www.phmpapers.org/index.php/phmconf/article/view/912"
 url_slides: ""
 url_video: ""
 
@@ -30,12 +30,10 @@ url_video: ""
 slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Prognostics and health management (PHM) has gradually become an essential technique to improve the availability and efficiency of industrial systems. With the rapid advancement
+of sensor technology and communication technology, a huge amount of real-time data is generated from various applications industry, which brings new challenges to PHM in the context of big data streams. On one hand, high-volume stream data places a heavy demand on data storage, communication, and PHM modeling. On the other hand, continuous fluctuation and drift are essential properties of stream data in an online environment, which requires the PHM model to be capable to capture the new formation in stream data adaptively and continuously. This research proposes a systematic methodology to develop an effective online evolving PHM method with adaptive sampling mechanism against continuous stream data and in-process changes. 
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+An adaptive sample selection strategy named Sample Importance (SI) Test is developed to effectively select the representative samples in both off-line and online environment. The SI test proposed here is composed of two tests: Data-based importance test and Model-based importance test.
+DBI test considers determining the informativeness of the new sample based on the characteristics of the data. In other words, to make it general, we define the DBI test as freshness test, as it evaluate the importance regarding informativeness just as it is "fresh" or not compared with previously shown samples. MBI test considers determining the informativeness of the new sample based on the performance of the model’s prediction on this sample. The prediction performance here has two meanings: (1) whether the prediction has a good prediction accuracy; and (2) whether the prediction has a low uncertainty. In other words, to make it general, we define the MBI test as error test, which identified whether the sample has a large prediction error, or has a high prediction uncertainty.
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Meanwhile, a probabilistic theory-based modeling approach is developed to update the model with newly selected samples. Finally, the whole methodology is validated with real-world industrial cases. The result comparison between the proposed methodology and state-ofart methods verifies the superiority of the proposed method.

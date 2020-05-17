@@ -1,24 +1,26 @@
 ---
 title: PHM-enabled Maintenance Scheduling Optimization
-summary: An example of using the in-built project page.
+summary: A comprehensive framework of off-shore wind farm maintenance scheduling optimization solution based on PHM outcomes.
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- Maintenance Scheduling
+- PHM
+- Predictive Maintenance
+date: "2017-12-17T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Integrated Maintenance Scheduling Optimization Model enabled by Predictive Analytics
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: researchgate
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: Details
+  url: https://www.researchgate.net/publication/336663228_An_intelligent_system_for_offshore_wind_farm_maintenance_scheduling_optimization_considering_turbine_production_loss?_sg=crx-9Dn-S01kqA5R8P51r35JuDCmE5dSqWo8y9z3JQ0pCPuEd01Y6-pDvFbVAqq35n2uDfjcQnt0YFy49tD_iXHdmIkTc69jOZydMdBq.DqzG2Ro0PLPymPJx35pSYiwx-EnLBLKN1nwdJu5Gdjjf7bInUmNm-vDkmGN_1Y8ZKfokrbuAh7pnbYIg392dHg
 url_code: ""
-url_pdf: ""
+url_pdf: "https://www.researchgate.net/publication/336663228_An_intelligent_system_for_offshore_wind_farm_maintenance_scheduling_optimization_considering_turbine_production_loss#fullTextFileContent"
 url_slides: ""
 url_video: ""
 
@@ -30,12 +32,4 @@ url_video: ""
 slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
-
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+Maintenance Scheduling and Routing (MS&R) is critical for the offshore wind farm to reduce maintenance cost. Although different models are proposed, the turbine operating conditions and the forecasted wind resources in the maintenance horizon are still less accounted in these current models. To address this issue, this research proposes a novel mathematical model to optimize the MS&R problem by highlighting the significance of turbine production loss (PL) before and during maintenance activities. In the proposed methodology, the PL term takes the most up-to-date wind turbine power curve and the forecasted wind resources as model inputs. Subsequently, a novel Genetic Algorithm (GA) solver is designed to minimize the PL of wind turbines together with the technician salaries and the transportation costs. The outcome of the proposed model gives a detailed maintenance plan with maintenance schedules, vessel routes, technician assignments, and cost breakdowns. Validation of the proposed model is implemented on real-world data collected from an offshore wind farm with several 4 MW wind turbines. The result demonstrates the effectiveness and superiority of the proposed method, and some practical findings are also summarized in the conclusions.

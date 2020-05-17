@@ -25,8 +25,6 @@ date_format = "Jan 2006"
   date_start = "2019-11-01"
   date_end = ""
   description = """
-Responsibilities include:
-  
   * Lighthouse factory and smart manufacturing factory technical lead
   * Lighthouse Academy industrial intelligence tool development and talent training
   """
@@ -34,7 +32,7 @@ Responsibilities include:
 [[experience]]
   title = "Graduate Reseacher"
   company = "IMS Center @University of Cincinnati"
-  company_url = ""
+  company_url = "http://www.imscenter.net/"
   location = "Cincinnati, OH, USA"
   date_start = "2015-08-22"
   date_end = ""
@@ -44,7 +42,7 @@ Responsibilities include:
 [[experience]]
   title = "Data Scientist Intern"
   company = "General Motors Co."
-  company_url = ""
+  company_url = "https://www.gm.com/"
   location = "Warren, MI, USA"
   date_start = "2018-05-01"
   date_end = "2018-08-31"
@@ -56,7 +54,7 @@ Responsibilities include:
 [[experience]]
   title = "Data Scientist Intern"
   company = "Eaton Co."
-  company_url = ""
+  company_url = "https://www.eaton.com/us/en-us.html"
   location = "Southfield, MI, USA"
   date_start = "2017-06-01"
   date_end = "2017-09-01"
@@ -68,7 +66,7 @@ Responsibilities include:
 [[experience]]
   title = "Data Scientist"
   company = "CyberInsight Co. Ltd"
-  company_url = ""
+  company_url = "https://www.cyber-insight.com"
   location = "Beijing, China"
   date_start = "2017-02-01"
   date_end = "2017-05-31"
@@ -80,7 +78,7 @@ Responsibilities include:
 [[experience]]
   title = "Senior Data Scientist"
   company = "Precision Machinery R&D Center"
-  company_url = ""
+  company_url = "http://en.pmc.org.tw"
   location = "Taiwan"
   date_start = "2018-06-01"
   date_end = "2017-03-31"
@@ -91,7 +89,7 @@ Responsibilities include:
   [[experience]]
   title = "Product Quality Management Intern"
   company = "Shanghai Volkswagen Co., Ltd"
-  company_url = ""
+  company_url = "https://volkswagengroupchina.com.cn/en/partner/saicvolkswagen"
   location = "Shanghai, China"
   date_start = "2014-07-01"
   date_end = "2014-08-31"
